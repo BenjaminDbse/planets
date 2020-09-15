@@ -1,5 +1,4 @@
-  123  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
-  124  unzip planets.zip
+124  unzip planets.zip
   125  mkdir réelles
   126  mkdir fictives
   127  mkdir habitées sous les planètes
@@ -9,43 +8,15 @@
   131  mkdir planètes-naines
   132  cd ..
   133  mv earth.jpeg réelles
-  134  ls
-  135  cd planets
-  136  ls
-  137  mv 'earth.jpeg' 'mercury.jpeg' 'saturn.jpeg' 'uranus.jpeg' 'neptune.jpeg' 'jupiter.jpeg' 'mars.jpeg' 'venus.jpeg' 'réelles'
-  138  mv 'earth.jpeg' 'mercury.jpeg' 'saturn.jpeg' 'uranus.jpeg' 'neptune.jpeg' 'jupiter.jpeg' 'mars.jpeg' 'venus.jpeg' '~/réelles'
-  139  cd ..
-  140  mv 'planets/earth.jpeg' 'planets/mercury.jpeg' 'planets/saturn.jpeg' 'planets/uranus.jpeg' 'planets/neptune.jpeg' 'planets/jupiter.jpeg' 'planets/mars.jpeg' 'planets/venus.jpeg' '~/réelles'
-  141  mv 'planets/earth.jpeg' 'planets/mercury.jpeg' 'planets/saturn.jpeg' 'planets/uranus.jpeg' 'planets/neptune.jpeg' 'planets/jupiter.jpeg' 'planets/mars.jpeg' 'planets/venus.jpeg' réelles
-  142  ls
-  143  ls planets
-  144  mv /planets/pluto.jpeg réelles
-  145  mv '/planets/pluto.jpeg' réelles
-  146  mv 'planets/pluto.jpeg' réelles
-  147  ls planets
-  148  mv 'planets/arrakis.jpeg' 'planets/coruscant.jpeg' 'cybertron.jpeg'  fictives
-  149  mv 'planets/arrakis.jpeg' 'planets/coruscant.jpeg' 'planets/cybertron.jpeg'  fictives
-  150  clear
-  151  ls planets
-  152  ls coruscant.jepg
-  153  cp 'fictives/*.jpeg' habitées
-  154  cp -r 'fictives/*.jpeg' habitées
-  155  cp -r 'fictives/*.jpeg' /'habitées'
-  156  cp -r 'fictives/*' /'habitées'
-  157  cp 'fictives/*.jpeg' /'habitées'
-  158  cp 'fictives/coruscant.jpeg' habitées
-  159  cp 'fictives/*.jpeg' habitées
-  160  cp 'fictives/*' habitées
-  161  cp 'fictives/cybertron.jpeg' habitées
+135  cd planets
+mv 'planets/earth.jpeg' 'planets/mercury.jpeg' 'planets/saturn.jpeg' 'planets/uranus.jpeg' 'planets/neptune.jpeg' 'planets/jupiter.jpeg' 'planets/mars.jpeg' 'planets/venus.jpeg' réelles
+146  mv 'planets/pluto.jpeg' réelles
+149  mv 'planets/arrakis.jpeg' 'planets/coruscant.jpeg' 'planets/cybertron.jpeg'  fictives
+161  cp 'fictives/cybertron.jpeg' habitées
   162  cp 'fictives/arrakis.jpeg' habitées
   163  cp 'réelles/earth.jpeg' habitées
-  164  history
-  165  clear
-  166  cd réelles
+166  cd réelles
   167  mv 'earth.jpeg' 'mars.jpeg' 'mercury.jpeg' 'venus.jpeg' 'jupiter.jpeg' 'uranus.jpeg' 'saturn.jpeg' terrestre
   168  mv 'neptune.jpeg' terrestre
   169  mv 'pluto.jpeg' planètes-naines
-  170  rm --help
-  171  rm -r planètes-naines
-  172  clear
-  173  history
+171  rm -r planètes-naines
